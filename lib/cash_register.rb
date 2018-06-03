@@ -17,7 +17,7 @@ class CashRegister
   end
     
 
-  end
+
   
   def apply_discount
     if @discount == nil
@@ -32,7 +32,7 @@ class CashRegister
   def items
     @items
   end
-end  
+
 end
 
   

@@ -15,6 +15,7 @@ class CashRegister
     else
       @total += price*quantity
     end
+    quantity.times do
     @items << item
   end
   

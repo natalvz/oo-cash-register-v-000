@@ -1,7 +1,7 @@
 require 'pry'
 class CashRegister
 
-  attr_accessor :total, :discount, :descuento, :items
+  attr_accessor :total, :discount, :descuento, :items, :last_transaction
   
   def initialize(dis=nil)
     @total = 0 

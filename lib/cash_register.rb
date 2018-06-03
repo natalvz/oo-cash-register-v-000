@@ -26,13 +26,13 @@ class CashRegister
     @descuento = (@discount*@total)/100
     @total -= @descuento
     return "After the discount, the total comes to $#{total}."
-  end
+    end
   end 
   
   def items
     @items
   end
-  
+end  
 end
 
   
